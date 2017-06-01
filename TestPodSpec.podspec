@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios
    s.platform     = :ios, "8.0"
 
-  #s.source       = { :git => "http://EXAMPLE/TestPodSpec.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/cccisbug/cccTestPodSpec.git", :tag => s.version.to_s }
 
   s.source_files  = "TestPodSpec/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
